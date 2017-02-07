@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '6.0'
+before_install: npm install mocha 
+install: npm install
+deploy:
+  provider: s3
+  access_key_id: AKIAJVGBB5UBSMKTPS6A
+  bucket: 07311c622650f5698
+  region: us-east-1
+  secret_access_key:
+    secure: pWVNvPetES/+6jYvJOyuVmMq8yY+5XQhfa+sw5Xu3TH25UwNeTD7kei4blG51p90cEcw1liDaCJFjdc2uXa97PC43+yS0O8/bO9jMlZW/rWx8ITa7KlBtca9dgfhus7V3kpaiCSaaJiIkpeaEd1N7GB+G7e5AkO5blZfT7QzBfjs/W6Ljg9ktju29TZ0IrOKDqT7kIQPK+0JAwFL4c+SFQ2QC87LdmvAb8jEASE5x6Jbul0n9kWz9ky0w/PIJCHyissFhzaRB1e8IEZpfK5DqZpQKGHCCade5IxrbFdmLb7iL6EcFf9f9PFozhjP1cC3O2EoMdKHSSLtpMo4nLmTbo7AP5n2TXcQUuHCd8KHay4C+nI24+b7hvS89D2P80DriFL8dpns8fnf8/aECyxc4ur57rA70t+SIDiMTe+xTI1s+WWqGh6RlB+7pzpMZq8eWFCeWse6Vmy/lE12RA+IdrbWoDGkJpBpAx36spR0tjQB4mZ/knO9KfN2IRJ25Gja8Zfg+Or6zb3SSQc1LrpCwqLGP1Po+Vjf6fdHDap7dk3EDVfFWQEMY5q7gyx7kBSJZvYF9/QL1rpeFbNNs7MfqvkYrqQB79j8ApMBWBeboVWqoQU82yEkf/9KitJM3QqQtD11j21broq7ykbe/xRTHRXIptuqZyuSAsryHdWMM7o=
