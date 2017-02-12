@@ -1,5 +1,5 @@
 {
-  "name": "programmingforprogress",
+  "name": "programmingtoprogress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "nodemon": "^1.9.2"
   },
   "scripts": {
-    "test":"mocha",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass --include-path scss scss/main.scss css/main.css",
     "watch-sass": "nodemon -e scss -x \"npm run sass\""
   },
@@ -23,4 +23,3 @@
   },
   "homepage": "https://github.com/hackoregon/programmingforprogress-frontend#readme"
 }
-
